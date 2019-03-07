@@ -59,6 +59,7 @@ def distance(point):
     # This code has an error, on purpose.  Do NOT fix it.
     x_squared = point.x * point.x
     y_squared = point.y * point.x
+    # I should fix the error by this: y_squared = point.y * point.y
 
     return math.sqrt(x_squared + y_squared)
 
@@ -69,7 +70,7 @@ def distance(point):
 main()
 
 ###############################################################################
-# TODO: 2.
+# DONE: 2.
 #
 # READ the following, asking questions as needed.
 # When you believe that you understanding what is says about UNIT TESTING,
